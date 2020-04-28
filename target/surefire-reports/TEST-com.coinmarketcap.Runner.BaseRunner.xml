@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.coinmarketcap.Runner.BaseRunner" time="13.132" tests="20" errors="6" skipped="11" failures="0">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/conf"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/13.0.2+8_2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dcucumber.options=--tags @backendsanity"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.3_1/libexec"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/vamshirudrabhatla"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/13.0.2+8_2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="user.name" value="vamshirudrabhatla"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="cucumber.options" value="--tags @backendsanity"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/f8/sp40n1vj1pn1xqnwcrc_m6x80000gp/T/"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="user.dir" value="/Users/vamshirudrabhatla/Downloads/coinmarketProject"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/vamshirudrabhatla/Downloads/coinmarketProject"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/vamshirudrabhatla/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/bin/m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/lib/jansi-native"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="Given User Launches coin market cap app" classname="| BTC,ETH,USDT |" time="0.002"/>
+  <testcase name="Given I make a /cryptocurrency/map call by passing the symbols &quot;BTC,ETH,USDT&quot;" classname="| BTC,ETH,USDT |" time="0.005">
+    <error message="javax/xml/bind/JAXBException" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+</error>
+    <system-out><![CDATA[
+  Background:                               &amp#27;[90m# backend/ApiTest.feature:3&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Launches coin market cap app&amp#27;[0m &amp#27;[90m# HomePageSteps.launchCoinMarketApp()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="| BTC,ETH,USDT |" classname="| BTC,ETH,USDT |" time="0.005">
+    <error message="javax/xml/bind/JAXBException" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+</error>
+  </testcase>
+  <testcase name="Then I assert the response and retrieve the ID of each of the currency" classname="| BTC,ETH,USDT |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I make a /tools/price-conversion call using the IDs" classname="| BTC,ETH,USDT |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I assert the response and convert the IDs to Bolivian Boliviano" classname="| BTC,ETH,USDT |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given User Launches coin market cap app" classname="| 1027 | https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png | https://github.com/ethereum/wiki/wiki/White-Paper | 2015-08-07T00:00:00.000Z |" time="0"/>
+  <testcase name="Given I Retrieve the Ethereum ID &quot;1027&quot; technical documentation website from the cryptocurrency/info call." classname="| 1027 | https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png | https://github.com/ethereum/wiki/wiki/White-Paper | 2015-08-07T00:00:00.000Z |" time="0.004">
+    <error message="Could not initialize class com.jayway.restassured.RestAssured" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class com.jayway.restassured.RestAssured
+</error>
+    <system-out><![CDATA[
+  Background:                               &amp#27;[90m# backend/ApiTest.feature:3&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Launches coin market cap app&amp#27;[0m &amp#27;[90m# HomePageSteps.launchCoinMarketApp()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="| 1027 | https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png | https://github.com/ethereum/wiki/wiki/White-Paper | 2015-08-07T00:00:00.000Z |" classname="| 1027 | https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png | https://github.com/ethereum/wiki/wiki/White-Paper | 2015-08-07T00:00:00.000Z |" time="0.005">
+    <error message="Could not initialize class com.jayway.restassured.RestAssured" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class com.jayway.restassured.RestAssured
+</error>
+  </testcase>
+  <testcase name="Then I assert the response status and confirm that the following logo url &quot;https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png&quot; is present" classname="| 1027 | https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png | https://github.com/ethereum/wiki/wiki/White-Paper | 2015-08-07T00:00:00.000Z |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I confirm that the following technical doc url &quot;https://github.com/ethereum/wiki/wiki/White-Paper&quot; is present" classname="| 1027 | https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png | https://github.com/ethereum/wiki/wiki/White-Paper | 2015-08-07T00:00:00.000Z |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I confirm that the symbol of the currency is ETH" classname="| 1027 | https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png | https://github.com/ethereum/wiki/wiki/White-Paper | 2015-08-07T00:00:00.000Z |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I confirm that the date added as date &quot;2015-08-07T00:00:00.000Z&quot;" classname="| 1027 | https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png | https://github.com/ethereum/wiki/wiki/White-Paper | 2015-08-07T00:00:00.000Z |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I confirm that the platform is null" classname="| 1027 | https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png | https://github.com/ethereum/wiki/wiki/White-Paper | 2015-08-07T00:00:00.000Z |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I confirm that the currency has the mineable tag associated with it" classname="| 1027 | https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png | https://github.com/ethereum/wiki/wiki/White-Paper | 2015-08-07T00:00:00.000Z |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given User Launches coin market cap app" classname="Scenario: Retrieve the first 10 currencies info" time="0"/>
+  <testcase name="Given I make a /cryptocurrency/map call for the first 10 currencies" classname="Scenario: Retrieve the first 10 currencies info" time="0.001">
+    <error message="Could not initialize class com.jayway.restassured.RestAssured" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class com.jayway.restassured.RestAssured
+</error>
+    <system-out><![CDATA[
+  Background:                               &amp#27;[90m# backend/ApiTest.feature:3&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser Launches coin market cap app&amp#27;[0m &amp#27;[90m# HomePageSteps.launchCoinMarketApp()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: Retrieve the first 10 currencies info" classname="Scenario: Retrieve the first 10 currencies info" time="0.002">
+    <error message="Could not initialize class com.jayway.restassured.RestAssured" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class com.jayway.restassured.RestAssured
+</error>
+  </testcase>
+  <testcase name="Then I check which currencies have the mineable tag associated with them" classname="Scenario: Retrieve the first 10 currencies info" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I verify that the correct cryptocurrencies have been printed out" classname="Scenario: Retrieve the first 10 currencies info" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
